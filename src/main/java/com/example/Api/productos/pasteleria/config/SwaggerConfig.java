@@ -14,6 +14,6 @@ public class SwaggerConfig {
                 .info(new Info()
                         .title("API Pastelería - Gestión de Productos y Órdenes")
                         .version("1.0.0")
-                        .description("Documentación de  API para administrar productos, órdenes y operaciones de tienda."));
+                        .description("Documentación de la API para administrar productos, órdenes y operaciones de tienda."));
     }
 }
