@@ -9,7 +9,7 @@ RUN mvn dependency:go-offline -B
 
 # Copiar el código fuente
 COPY src ./src
-COPY resources/wallet ./wallet
+COPY src/main/resources/wallet ./resources/wallet
 
 # Compilar el JAR sin ejecutar tests
 RUN mvn clean package -DskipTests
