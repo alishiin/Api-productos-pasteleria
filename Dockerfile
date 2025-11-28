@@ -14,6 +14,7 @@ COPY src/main/resources/wallet ./resources/wallet
 # Compilar el JAR sin ejecutar tests
 RUN mvn clean package -DskipTests
 
+
 # Etapa 2: Imagen final más liviana
 FROM eclipse-temurin:22-jre
 
