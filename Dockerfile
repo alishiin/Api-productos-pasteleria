@@ -1,4 +1,3 @@
-{"id":"96521","variant":"standard","title":"Dockerfile corregido con wallet"}
 # Etapa 1: Construir el proyecto usando Maven
 FROM maven:3.9.6-eclipse-temurin-22 AS build
 
