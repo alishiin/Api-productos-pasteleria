@@ -1,0 +1,12 @@
+2025-11-19 03:23:59.285565-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]ID"; se esperaba "INSERT"
+Syntax error in SQL statement "[*]ID"; expected "INSERT"; SQL statement:
+ID [42001-232]
+2025-11-19 03:24:01.768300-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]ID TOTAL"; se esperaba "INSERT"
+Syntax error in SQL statement "[*]ID TOTAL"; expected "INSERT"; SQL statement:
+ID TOTAL [42001-232]
+2025-11-19 03:24:46.697653-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ORDEN_IPRODUCTOS" no encontrada
+Table "ORDEN_IPRODUCTOS" not found; SQL statement:
+SELECT * FROM ORDEN_IPRODUCTOS TEMS [42102-232]
