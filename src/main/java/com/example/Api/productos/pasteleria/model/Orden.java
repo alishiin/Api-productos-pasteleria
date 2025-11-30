@@ -11,12 +11,12 @@ public class Orden {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    // Renombramos de "user" a "username" para evitar palabras reservadas
+
     private String username;
 
     private Double total;
 
-    // Lista de items como JSON strings
+
     @ElementCollection
     @CollectionTable(name = "orden_items", joinColumns = @JoinColumn(name = "orden_id"))
     @Column(name = "item")
